@@ -15,9 +15,9 @@ let connection = require("../config/connection");
 router.get("/", function(req, res) {
 
     let queryString = "SELECT * FROM t_burger";
-    console.log(data);
     connection.query(queryString , function(err, data){
         res.send(data);
+        console.log(data);
         
 
     });
