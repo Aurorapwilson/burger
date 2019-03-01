@@ -1,22 +1,5 @@
 <h1>Burger!</h1>
 
-<h2>Or Else!</h2>
+<h2>Eat The Burger!</h2>
 
-<ul>
-  {{#each Burger}}
-    {{#unless sleepy}}
-      {{> cats/cat-block devour=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
-
-<h2>Cats that are sleepy!</h2>
-
-<ul>
-  {{#each Burger}}
-    {{#if sleepy}}
-      {{> cats/cat-block devour=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-
+{{input name="firstName" placeholder="enter name" value=firstName}}
