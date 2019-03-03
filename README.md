@@ -6,6 +6,7 @@ In this assignment I created a burger logger utilizing MySQL, NODE.js, Express, 
 The criteria for this assignment were to create, update, and delete data from the database using the frontend, which was created using handlebars to render the front end. 
 
 * The app had to be deployed through Heroku
+![](public/assets/img/ScreenShot2019-03-02at11.31.25PM.png)
 
 ###About
 
