@@ -1,0 +1,14 @@
+body{
+    background-color: #FA8072;
+
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
